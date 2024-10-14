@@ -128,7 +128,7 @@ async function getSubdirectories(dirPath) {
     .map(item => item.name);
 }
 
-async function processFiles(rootDir, inputDir, outputFile, files, config) {
+async function processFiles(rootDir, inputDir, outputFile, files) {
   let totalTokens = 0;
   const processedFiles = [];
 
